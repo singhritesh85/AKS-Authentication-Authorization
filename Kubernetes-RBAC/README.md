@@ -27,4 +27,19 @@ The CSR file after encoding to base64 we need to send to AKS and ask AKS to regi
 ![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/15d418d0-de3a-4a3d-8bc3-864b850994db)
 ![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/863394b7-1fe2-47a5-a760-82f18e62ad3d)
 ![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/135c14cd-bccd-4537-8375-626b3d326527)
+<br><br/>
+create .crt extension certificate file from the token
+<br><br/>
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/e854a4f8-5ca6-46bb-a626-690e6dba19df)
+<br><br/>
+configure these details in kubeconfig file
+<br><>br/
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/4425ad30-c551-4420-86bb-64f4e4bcccdd)
+<br><br/>
+create user context
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/00da6f51-c634-444b-b5c9-5349c99d37bc)
+list user context
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/6540d0d5-a4a6-42f9-b8a2-24ff39d407e0)
+switch context
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/e46f8aa4-cc80-4dcf-b16f-b554359673f7)
 
