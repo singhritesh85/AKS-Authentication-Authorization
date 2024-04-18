@@ -28,8 +28,8 @@ metadata:
   name: reader-binding
   namespace: demo
 subjects:
-- kind: Group
-  name: reader
+- kind: User
+  name: johny
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: Role
@@ -80,7 +80,7 @@ spec:
   usages:
   - digital signature
   - key encipherment
-  - server auth
+  - client auth
 ```
 ```
 kubectl apply -f csr-johny.yaml
