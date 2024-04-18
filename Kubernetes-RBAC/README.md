@@ -34,7 +34,7 @@ create .crt extension certificate file from the token
 ![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/e854a4f8-5ca6-46bb-a626-690e6dba19df)
 <br><br/>
 configure these details in kubeconfig file
-<br><>br/
+<br><br/>
 ![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/4425ad30-c551-4420-86bb-64f4e4bcccdd)
 <br><br/>
 create user context
