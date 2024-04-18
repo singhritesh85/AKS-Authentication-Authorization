@@ -1,0 +1,13 @@
+kind: CertificateSigningRequest
+apiVersion: certificates.k8s.io/v1
+metadata:
+  name: johny
+spec:
+  groups:
+  - system:authenticated
+  request: <paste base64 string from the command output of cat johny.csr | base64 | tr -d '\n'>
+  signerName: kubernetes.io/kube-apiserver-client
+  usages:
+  - digital signature
+  - key encipherment
+  - client auth
