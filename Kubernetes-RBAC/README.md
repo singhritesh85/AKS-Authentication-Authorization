@@ -1,3 +1,4 @@
+# Kubernetes RBAC in AKS
 To demonstrate Kubernetes RBAC in AKS I have create two users one is named as johny who has get, watch and list authorization for pods, services and deployments (defined using Role) and another is named as prabhakar who has cluster administrator authorization (defined using ClusterRole).
 <br><br/>
 Role and RoleBinding
