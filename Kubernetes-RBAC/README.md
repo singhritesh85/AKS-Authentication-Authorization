@@ -42,4 +42,8 @@ list user context
 ![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/6540d0d5-a4a6-42f9-b8a2-24ff39d407e0)
 switch context
 ![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/e46f8aa4-cc80-4dcf-b16f-b554359673f7)
+You can share these kubeconfig file and certificate files (johny.key and johny.crt files) with user johny as shown in screenshot below so that user johny can access the AKS cluster namespace demo with limited access of list, watch and get the pods, services and deployments.
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/0e460091-561f-4292-b138-19b178663324)
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/159631d8-74a6-4709-8b55-6d0e08ccd797)
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/671221f3-b051-47e6-9447-708abc07ca44)
 
