@@ -46,4 +46,20 @@ switch context
 You can share these kubeconfig file and certificate files (johny.key and johny.crt files) with user johny as shown in screenshot below so that user johny can access the AKS cluster namespace demo with limited access of list, watch and get the pods, services and deployments.
 ![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/159631d8-74a6-4709-8b55-6d0e08ccd797)
 ![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/671221f3-b051-47e6-9447-708abc07ca44)
+<br> <br/>
+The same steps have been followed for user prabhakar who has admin access.
+<br><br/>
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/90de5210-51fb-466b-a8dc-80a9533e84aa)
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/b3efa592-afc5-4c98-83fb-845906b30e99)
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/76587e03-7132-44c5-a6a8-95eed3eba4b7)
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/119b9a0f-888d-4f5a-89d2-ab94f779ff47)
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/ad0db008-9677-4eff-9332-4f91919de282)
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/19217040-60df-4828-b8bf-c94eb3fa589e)
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/5b3752de-7965-49da-9a09-93cf8986e3a3)
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/a6032a27-6c00-44e9-b39e-bcc8d10e3fb6)
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/b87ba5ef-52c8-4491-b838-cb731642444e)
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/1227ad91-ff69-4579-8469-72197480eb2b)
 
+Share the kubeconfig file, prabhakar.crt and prabhakar.key with user prabhakar after which user will be able to access the kubernetes cluster.
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/927ac6da-7072-437b-9897-f0ad457cb639)
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/2e1ca319-9cc8-447d-a304-ce6b4cb7c68d)
