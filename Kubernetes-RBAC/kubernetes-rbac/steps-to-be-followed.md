@@ -76,7 +76,7 @@ spec:
   groups:
   - system:authenticated
   request: <paste base64 string from above step>
-  signerName: beta.eks.amazonaws.com/app-serving          ###kubernetes.io/kube-apiserver-client
+  signerName: kubernetes.io/kube-apiserver-client
   usages:
   - digital signature
   - key encipherment
