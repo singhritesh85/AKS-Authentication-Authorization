@@ -106,8 +106,6 @@ kubectl get csr johny -o jsonpath='{.status.certificate}' | base64 --decode > jo
 kubectl config set-credentials johny --client-certificate=johny.crt --client-key=johny.key
 ```
 
-Share this kubeconfig file with user so that user can access the namespace within the cluster
-
 ```
 kubectl config set-context johny-context --cluster=aks-cluster --user=johny --namespace=demo
 
@@ -115,4 +113,5 @@ kubectl config get-contexts
 kubectl config use-context johny-context
 ```
 
+Share this kubeconfig file with user so that user can access the namespace within the cluster
 
