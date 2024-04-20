@@ -8,4 +8,4 @@ To demonstrate this I have created two Azure AD users demo-user and admin-user w
 ![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/e8a9cabb-2a08-43c1-9ed5-ba85c3dbb2b5)
 ![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/0b896a8f-d201-47ea-ab5f-07feeb3a68dc)
 <br><br/>
-From the Azure Console cluster configuration tab the Authentication and Authorization option is changed to **Azure AD authentication with Kubernetes RBAC** and for **Cluster admin ClusterRoleBinding** option an Azure AD Group should be attached. The User within this Azure AD group will get 
+From the Azure Console cluster configuration tab the Authentication and Authorization option is changed to **Azure AD authentication with Kubernetes RBAC** and for **Cluster admin ClusterRoleBinding** option an Azure AD Group should be attached. The **Users within this Azure AD group will get admin access within the cluster**.
