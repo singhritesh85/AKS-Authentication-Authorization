@@ -27,4 +27,6 @@ The user-demo user doesn't have any access in default and kube-system namespace 
 
 Now login with User admin-user with the help of az login and then try to access all the resources within the cluster and you will find that user admin-user have all the access within the cluster as the user is a member of group admin-group and this group is attached to **Cluster admin ClusterRoleBinding** option as discussed above.
 ![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/e1963c73-dff9-4ed4-8704-f0d6ba291a17)
-![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/58bc9a19-754a-4607-832e-d3e7b9452284)
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/61243921-1521-4f42-89f6-4bb38bd75b07)
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/120931f1-dd78-4cfa-82d1-8dc7c50d1e66)
+
