@@ -21,7 +21,7 @@ Provide at least **Azure Kubernetes Service Cluster User Role** to the two Azure
 
 <br> <br/>
 Using az login, login with user demo-user and try to list the nodes and list the pods in the namespace default, kube-system and demo and see the result as shown in the screenshot attached below.
-![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/8d6bfd46-5d13-4c59-9ee4-18d51d070739)
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/319bc921-945f-4b45-987a-4594aca0df69)
 The user-demo user doesn't have any access in default and kube-system namespace but will have limited access in demo namespace.
 <br>  <br/>
 
