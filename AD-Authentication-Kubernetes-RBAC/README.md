@@ -16,4 +16,5 @@ The demo-user is authorized using the Role and RoleBinding as shown in the scree
 ![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/a3e8c977-dc0c-45ac-aded-79918b259738)
 <br><br/>
 Provide at least **Azure Kubernetes Service Cluster User Role** to the two Azure AD Groups demo-group and admin-group for the Azure AKS Cluster as shown in the screenshot attached below. As this Role is needed to generate the kubeconfig file. 
+<br><br/>
 ![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/bf406654-7cdb-40b6-aa83-1ff4cd298a2a)
