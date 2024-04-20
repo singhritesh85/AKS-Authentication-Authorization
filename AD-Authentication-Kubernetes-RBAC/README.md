@@ -23,3 +23,8 @@ Provide at least **Azure Kubernetes Service Cluster User Role** to the two Azure
 Using az login, login with user demo-user and try to list the nodes and list the pods in the namespace default, kube-system and demo and see the result as shown in the screenshot attached below.
 ![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/8d6bfd46-5d13-4c59-9ee4-18d51d070739)
 The user-demo user doesn't have any access in default and kube-system namespace but will have limited access in demo namespace.
+<br>  <br/>
+
+Now login with User admin-user with the help of az login and then try to access all the resources within the cluster and you will find that user admin-user have all the access within the cluster as the user is a member of group admin-group and this group is attached to **Cluster admin ClusterRoleBinding** option as discussed above.
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/e1963c73-dff9-4ed4-8704-f0d6ba291a17)
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/58bc9a19-754a-4607-832e-d3e7b9452284)
