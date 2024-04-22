@@ -5,6 +5,9 @@ subscriptions/512XXXX6-aXX4-4XX6-9XX4-f1XXXXXX15d/resourcegroups/aks-rg/provider
 
 
 **Reference** 
+```
 https://learn.microsoft.com/en-us/azure/role-based-access-control/tutorial-custom-role-cli
 https://learn.microsoft.com/en-us/azure/role-based-access-control/custom-roles-cli
 https://learn.microsoft.com/en-us/answers/questions/1082464/namespace-permission
+https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/role-based-access-control/built-in-roles/containers.md
+```
