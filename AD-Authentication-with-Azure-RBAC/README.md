@@ -20,7 +20,8 @@ Create
 Here I have assigned this Azure Role to Azure AD Group for the Scope as Azure Resource AKS. 
 <br><br/>
 ![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/e4cc1019-45e2-4870-ae1c-4603a1e9fada)
-![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/6268d58b-bb2d-4385-9ff9-8c282eefbb55)
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/859fe817-5863-48de-81bd-bb511cde54b5)
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/ab0df7dd-2df1-4f35-ba9b-fc594b8d6900)
 <br><br/>
 ```
 az role assignment create --role <Name_of_the_Azure_Role as mentioned in the Azure Role definition> --assignee <Object_ID of Group> --scope <Resource_ID of Azure Resource which you can get from Properties tab of Azure Resource>
