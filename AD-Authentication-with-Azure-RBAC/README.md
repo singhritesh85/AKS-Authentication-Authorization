@@ -29,9 +29,11 @@ az role assignment create --role <Name_of_the_Azure_Role as mentioned in the Azu
 <br><br/>
 To generate kubeconfig file Azure Role **Azure Kubernetes Service Cluster User Role** was assigned to Azure AD Group demo-group for Azure AKS cluster named as aks-cluster 
 <br><br/>
-![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/7bf20c38-3994-40ef-a13a-372950c87f53)
-
-
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/18ae1bee-b6ec-48cb-9161-a220459e420b)
+<br><br/>
+As per the Azure Role the demo-user is only authorize for Read access of Pods, Services and Deployments in namespace demo which can be verified with the screenshots attached below.
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/1fb95ef6-8b78-4853-b994-a853d3e15cb8)
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/59708a4f-ec85-48f1-b7c6-02a87d574362)
 
 <br> <br/>
 **Reference**=https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/role-based-access-control/built-in-roles/containers.md
