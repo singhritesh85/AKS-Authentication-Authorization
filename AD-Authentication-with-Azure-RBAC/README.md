@@ -38,7 +38,7 @@ As per the Azure Role the demo-user is only authorize for Read access of Pods, S
 ![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/b86377cd-46e8-490d-af3b-cac3b1d32b94)
 <br><br/>
 The user admin-user which belongs to the group admin-group will have admin privileges and it can be verified with the attached screenshots.
-
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/b5d4bed6-881c-4a1b-834d-2eec0a50cd77)
 ![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/9d2d55b2-407f-43ac-b16d-dafa05b4f20f)
 <br> <br/>
 **Reference**=https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/role-based-access-control/built-in-roles/containers.md
