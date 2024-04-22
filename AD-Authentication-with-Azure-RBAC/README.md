@@ -19,7 +19,7 @@ Create
 <br><br/>
 Here I have assigned this Azure Role to Azure AD Group for the Scope as Azure Resource AKS. 
 <br><br/>
-![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/dfc44ace-b02d-4438-bf85-7a49d384c447)
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/e4cc1019-45e2-4870-ae1c-4603a1e9fada)
 ![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/6268d58b-bb2d-4385-9ff9-8c282eefbb55)
 <br><br/>
 ```
