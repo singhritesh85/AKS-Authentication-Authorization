@@ -1,0 +1,14 @@
+{
+   "Name": "AKS Pod Service Deployment Read Access",
+   "Description": "Lets you provide Read access for Pod, Service and Deployment in Cluster/Namespace",
+   "Actions": [],
+   "DataActions": [
+      "Microsoft.ContainerService/managedClusters/apps/deployments/read",
+      "Microsoft.ContainerService/managedClusters/pods/read",
+      "Microsoft.ContainerService/managedClusters/services/read"
+   ],
+   "NotDataActions": [],
+   "assignableScopes": [
+      "/subscriptions/512XXXXX-aXX4-4XX6-9XX4-f1XXXXXXX15d"
+   ]
+}
