@@ -25,7 +25,7 @@ Here I have assigned this Azure Role to Azure AD Group for the Scope as Azure Re
 ```
 az role assignment create --role <Name_of_the_Azure_Role as mentioned in the Azure Role definition> --assignee <Object_ID of Group> --scope <Resource_ID of Azure Resource which you can get from Properties tab of Azure Resource>
 ```
-![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/691faab0-e91a-4b73-9eb8-31569d3719a0)
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/2adb4566-ca0a-4d9f-9332-b039109c1a7b)
 <br><br/>
 To generate kubeconfig file Azure Role **Azure Kubernetes Service Cluster User Role** was assigned to Azure AD Group demo-group for Azure AKS cluster named as aks-cluster 
 <br><br/>
