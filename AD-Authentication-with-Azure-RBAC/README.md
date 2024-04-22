@@ -30,4 +30,4 @@ az role assignment create --role <Name_of_the_Azure_Role as mentioned in the Azu
 
 
 <br> <br/>
-**Refernce**=https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/role-based-access-control/built-in-roles/containers.md
+**Reference**=https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/role-based-access-control/built-in-roles/containers.md
