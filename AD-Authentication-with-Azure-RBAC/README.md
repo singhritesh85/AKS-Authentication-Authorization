@@ -27,7 +27,9 @@ az role assignment create --role <Name_of_the_Azure_Role as mentioned in the Azu
 ```
 ![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/691faab0-e91a-4b73-9eb8-31569d3719a0)
 <br><br/>
-
+To generate kubeconfig file Azure Role **Azure Kubernetes Service Cluster User Role** was assigned to Azure AD Group demo-group for Azure AKS cluster named as aks-cluster 
+<br><br/>
+![image](https://github.com/singhritesh85/AKS-Authentication-Authorization/assets/56765895/7bf20c38-3994-40ef-a13a-372950c87f53)
 
 
 
